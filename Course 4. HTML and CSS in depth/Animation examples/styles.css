@@ -3,7 +3,7 @@
     transform: translate3d(0px, 0px, 0px);
   }
   to {
-    transform: translate3d(640px, 0px, 0px);
+    transform: translate3d(640px, 200px, 300px);
   }
 }
 

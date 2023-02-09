@@ -1,8 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+BODY {
+  
+}
+
 .clock {
   background-color: blue;
+  opacity:  50%;
   height: 500px;
   width: 500px;
   border-radius: 50%;
+}
+
+.hours {
+  height: 100px;
+  width: 5px;
+  border: 1 px solid black;
+  background-color: red;
+  transform-origin: bottom;
+  position: absolute;
+  top: 150px; left: 250px;
 }
 
 .minutes {
@@ -17,18 +36,7 @@
   
 }
 
-.hours {
-  height: 100px;
-  width: 5px;
-  border: 1 px solid black;
-  background-color: red;
-  transform-origin: bottom;
-  position: absolute;
-  top: 150px; left: 250px;
 
- 
-
-}
 
 .minutes {
   animation: cycle 6s infinite linear;
