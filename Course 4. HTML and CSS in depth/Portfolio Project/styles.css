@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: block;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+}
+
+.header-logo {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+
+.nav-buttons {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+
+}
+
+.nav-buttons a {
+	text-decoration: none;
+	color: #6652C2;
+	font-weight: 700;
+}
+
+.nav-buttons li {
+	list-style-type: none;
+	padding: 10px 20px;
+	margin: 5px 30px;
+}
+
+.main-banner {
+	display: flex;
+	justify-content: center;
+	background-color: powderblue;
+}
+
+.main-columns {
+	display: flex;
+	justify-content: space-around;
+	background-color: lightgoldenrodyellow;
+}
