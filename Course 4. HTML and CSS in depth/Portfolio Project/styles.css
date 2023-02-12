@@ -60,6 +60,7 @@ section {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	z-index: 2;
 }
 
 article:hover {
@@ -77,6 +78,7 @@ article {
 	border-radius: 5px;
 	line-height: 2rem;
 	border: 2px solid #C26652;
+	
 
 
 }
@@ -92,6 +94,21 @@ article {
 	max-width: 100%;
 }
 
+.make-button {
+	max-width: 20vw;
+	max-height: 100%;
+	background-color: #6652C2;
+	border-radius: 5px;
+	color: white;
+	font-weight: 400;
+	font-size: 1.3rem;
+	text-align: center;
+	padding: 10px 30px;
+	position: fixed;
+	bottom: 60px;
+	right: 1rem;
+
+}
 
 
 footer.footer-info {
@@ -135,6 +152,12 @@ footer.footer-info {
 	footer p {
 		font-size: 0.75rem;
 		padding: 0.5rem 0;
+	}
+
+	.make-button {
+		font-size: 1rem;
+		max-width: 50vw;
+		padding: 10px 30px;
 	}
 
 }
